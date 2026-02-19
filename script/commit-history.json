@@ -38,11 +38,30 @@
     "conclusion": "neutral"
   },
   {
-    "sha": "HEAD",
+    "sha": "7a18366f6723ec0860b68dec429ea8370d03c5a9",
     "author": "Santiago Torres",
     "commit": {
       "date": "2026-02-19T02:41:14.000Z",
       "message": "feat: saluda segun la hora",
+      "url": "https://github.com/SantiagoTorres020/saludador/commit/7a18366f6723ec0860b68dec429ea8370d03c5a9"
+    },
+    "stats": {
+      "total": 14,
+      "additions": 13,
+      "deletions": 1,
+      "date": "2026-02-19"
+    },
+    "coverage": 0,
+    "test_count": 0,
+    "failed_tests": 0,
+    "conclusion": "neutral"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Santiago Torres",
+    "commit": {
+      "date": "2026-02-19T02:48:52.000Z",
+      "message": "feat: pide genero y saluda con genero",
       "url": "https://github.com/SantiagoTorres020/saludador/commit/HEAD"
     },
     "stats": {

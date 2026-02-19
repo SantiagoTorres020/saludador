@@ -12,9 +12,15 @@
     "testId": 1
   },
   {
-    "commitId": "HEAD",
+    "commitId": "7a18366f6723ec0860b68dec429ea8370d03c5a9",
     "commitName": "feat: saluda segun la hora",
     "commitTimestamp": 1771468876002,
     "testId": 2
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: pide genero y saluda con genero",
+    "commitTimestamp": 1771469334046,
+    "testId": 3
   }
 ]
