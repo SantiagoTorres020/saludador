@@ -1,16 +1,35 @@
 [
   {
-    "sha": "HEAD",
+    "sha": "b1e3877d638c7d8bb2339282fba996c696152277",
     "author": "Santiago Torres",
     "commit": {
       "date": "2026-02-19T02:29:32.000Z",
       "message": "feat: muestra saludo basico hola",
-      "url": "https://github.com/SantiagoTorres020/saludador/commit/HEAD"
+      "url": "https://github.com/SantiagoTorres020/saludador/commit/b1e3877d638c7d8bb2339282fba996c696152277"
     },
     "stats": {
       "total": 6136,
       "additions": 2828,
       "deletions": 3308,
+      "date": "2026-02-19"
+    },
+    "coverage": 0,
+    "test_count": 0,
+    "failed_tests": 0,
+    "conclusion": "neutral"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Santiago Torres",
+    "commit": {
+      "date": "2026-02-19T02:37:47.000Z",
+      "message": "feat: pide nombre y saluda",
+      "url": "https://github.com/SantiagoTorres020/saludador/commit/HEAD"
+    },
+    "stats": {
+      "total": 15,
+      "additions": 5,
+      "deletions": 10,
       "date": "2026-02-19"
     },
     "coverage": 0,
