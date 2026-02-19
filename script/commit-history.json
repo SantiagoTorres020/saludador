@@ -19,17 +19,36 @@
     "conclusion": "neutral"
   },
   {
-    "sha": "HEAD",
+    "sha": "9787dd31f0a17cabcc9327be09bcd2568e76d496",
     "author": "Santiago Torres",
     "commit": {
       "date": "2026-02-19T02:37:47.000Z",
       "message": "feat: pide nombre y saluda",
-      "url": "https://github.com/SantiagoTorres020/saludador/commit/HEAD"
+      "url": "https://github.com/SantiagoTorres020/saludador/commit/9787dd31f0a17cabcc9327be09bcd2568e76d496"
     },
     "stats": {
       "total": 15,
       "additions": 5,
       "deletions": 10,
+      "date": "2026-02-19"
+    },
+    "coverage": 0,
+    "test_count": 0,
+    "failed_tests": 0,
+    "conclusion": "neutral"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Santiago Torres",
+    "commit": {
+      "date": "2026-02-19T02:41:14.000Z",
+      "message": "feat: saluda segun la hora",
+      "url": "https://github.com/SantiagoTorres020/saludador/commit/HEAD"
+    },
+    "stats": {
+      "total": 14,
+      "additions": 13,
+      "deletions": 1,
       "date": "2026-02-19"
     },
     "coverage": 0,
