@@ -18,9 +18,15 @@
     "testId": 2
   },
   {
-    "commitId": "HEAD",
+    "commitId": "53ec214e9b4f38a1a4d189275a431c78fe2bfb84",
     "commitName": "feat: pide genero y saluda con genero",
     "commitTimestamp": 1771469334046,
     "testId": 3
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: se agrego seleccion de idioma   separa la logica en saludador.j",
+    "commitTimestamp": 1771470498122,
+    "testId": 4
   }
 ]

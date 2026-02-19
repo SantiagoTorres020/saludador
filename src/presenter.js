@@ -1,28 +1,30 @@
+import saludar from "./saludador.js";
+
 const saludoP = document.querySelector("#saludo");
 
-const nombre = prompt("¿Cómo te llamas?");
-const genero = prompt("Género (M/F):");
+function normalizarIdioma(idioma) {
+  if (!idioma) return "ES";
+  const limpio = idioma.trim().toUpperCase();
+  if (limpio === "EN") return "EN";
+  return "ES";
+}
 
-const hora = new Date().getHours();
-let saludo = "";
+const idiomaIngresado = prompt("Language? ES or EN");
+const idioma = normalizarIdioma(idiomaIngresado);
 
-if (hora >= 5 && hora <= 11) {
-  saludo = "Buenos días";
-} else if (hora >= 12 && hora <= 18) {
-  saludo = "Buenas tardes";
+let nombre = "";
+let genero = "";
+let edad = 0;
+
+if (idioma === "EN") {
+  nombre = prompt("What's your name?");
+  genero = prompt("Gender (M/F):");
+  edad = Number.parseInt(prompt("Age:"));
 } else {
-  saludo = "Buenas noches";
+  nombre = prompt("¿Cómo te llamas?");
+  genero = prompt("Género (M/F):");
+  edad = Number.parseInt(prompt("Edad:"));
 }
 
-let tratamiento = "";
-if (genero === "M") {
-  tratamiento = "Señor";
-} else if (genero === "F") {
-  tratamiento = "Señora";
-}
-
-if (tratamiento === "") {
-  saludoP.innerHTML = saludo + ", " + nombre;
-} else {
-  saludoP.innerHTML = saludo + ", " + tratamiento + " " + nombre;
-}
+const saludoFinal = saludar(nombre, genero, edad, idioma);
+saludoP.innerHTML = saludoFinal;
