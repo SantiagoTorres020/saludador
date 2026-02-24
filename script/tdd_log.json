@@ -24,9 +24,55 @@
     "testId": 3
   },
   {
-    "commitId": "HEAD",
+    "commitId": "291ef9b0e4b2f2285fd069caef4c087d59276ccf",
     "commitName": "feat: se agrego seleccion de idioma   separa la logica en saludador.j",
     "commitTimestamp": 1771470498122,
     "testId": 4
+  },
+  {
+    "numPassedTests": 0,
+    "failedTests": 0,
+    "numTotalTests": 0,
+    "timestamp": 1771507922272,
+    "success": false,
+    "testId": 5
+  },
+  {
+    "numPassedTests": 0,
+    "failedTests": 0,
+    "numTotalTests": 0,
+    "timestamp": 1771508171021,
+    "success": false,
+    "testId": 5
+  },
+  {
+    "numPassedTests": 0,
+    "failedTests": 0,
+    "numTotalTests": 0,
+    "timestamp": 1771508416367,
+    "success": false,
+    "testId": 5
+  },
+  {
+    "numPassedTests": 0,
+    "failedTests": 0,
+    "numTotalTests": 0,
+    "timestamp": 1771508695943,
+    "success": false,
+    "testId": 5
+  },
+  {
+    "numPassedTests": 0,
+    "failedTests": 0,
+    "numTotalTests": 0,
+    "timestamp": 1771508710408,
+    "success": false,
+    "testId": 5
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: implementa boton unico Saludar con formulario en pagina (hora, nombre, genero, edad e idioma ES/EN",
+    "commitTimestamp": 1771976914608,
+    "testId": 5
   }
 ]
